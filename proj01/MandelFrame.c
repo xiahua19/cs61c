@@ -17,12 +17,12 @@ void printUsage(char* argv[])
   printf("    This program simulates the Mandelbrot Fractal, and creates an iteration map of the given center, scale, and resolution, then saves it in output_file\n");
 }
 
-	/**************
-	**This main function converts command line inputs into the format needed to run Mandelbrot.
-	**It also stores the result of Mandelbrot in the input file of your choice.
-	**We have hidden one memory leak in this code that you will need to fix. Yes, we are evil.
-	***************/
-	int main(int argc, char* argv[])
+/**************
+**This main function converts command line inputs into the format needed to run Mandelbrot.
+**It also stores the result of Mandelbrot in the input file of your choice.
+**We have hidden one memory leak in this code that you will need to fix. Yes, we are evil.
+***************/
+int main(int argc, char* argv[])
 {
 	test_complex_number();
 
