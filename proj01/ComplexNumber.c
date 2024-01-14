@@ -19,7 +19,7 @@ typedef struct ComplexNumber
 //Returns a pointer to a new Complex Number with the given real and imaginary components
 ComplexNumber* newComplexNumber(double real_component, double imaginary_component)
 {
-    ComplexNumber * new_number = (ComplexNumber *) malloc(sizeof(ComplexNumber));
+    ComplexNumber * new_number = (ComplexNumber *) malloc (sizeof(ComplexNumber));
 	new_number->real = real_component;
 	new_number->imaginary = imaginary_component;
 	return new_number;
